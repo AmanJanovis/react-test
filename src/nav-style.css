@@ -1,0 +1,35 @@
+.page-width {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.menu-cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 10%;
+    height: auto;
+}
+
+img {
+    width: 110px;
+    height: auto;
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+ul.menu li {
+    color: #ffffff;
+}
+
+.main-menu {
+    background: #44616d;
+}
