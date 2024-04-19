@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../logo.svg';
+import { Link } from 'react-router-dom';
 export default function NavBar() {
     return (
         <>
@@ -12,10 +13,10 @@ export default function NavBar() {
                                     <img src={logo} alt="logo"/>
                                 </div>
                                 <ul className="menu">
-                                    <li>Home</li>
-                                    <li>Gallery</li>
-                                    <li>About</li>
-                                    <li>ContactUs</li>
+                                    <li><Link to={`/`}>Home</Link></li>
+                                    <li><Link to={`/gallery`}>Gallery</Link></li>
+                                    <li><Link to={`/about`}>About</Link></li>
+                                    <li><Link to={`/contact-us`}>ContactUs</Link></li>
                                 </ul>
                             </div>
                         </nav>
