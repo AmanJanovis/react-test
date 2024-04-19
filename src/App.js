@@ -7,7 +7,6 @@ import NavBar from './components/NavBar';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
-  const aaaa = 12;
   return (
     <>
       <NavBar />
