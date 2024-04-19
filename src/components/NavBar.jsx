@@ -9,7 +9,7 @@ export default function NavBar() {
                         <nav>
                             <div className="menu-cover">
                                 <div className="logo">
-                                    <img src={logo} />
+                                    <img src={logo} alt="logo"/>
                                 </div>
                                 <ul className="menu">
                                     <li>Home</li>
