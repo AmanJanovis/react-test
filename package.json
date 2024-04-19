@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.js src/**/*.jsx src/**/*.html" 
+    "lint": "eslint src/**/*.js src/**/*.jsx src/**/*.html"
   },
   "eslintConfig": {
     "extends": [
@@ -41,17 +41,6 @@
       "last 1 safari version"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,html}": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "devDependencies": {
     "@eslint/eslintrc": "^3.0.2",
     "@eslint/js": "^9.0.0",
@@ -64,5 +53,16 @@
     "globals": "^15.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,html}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
